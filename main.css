@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+p 
+{
+    color: white;
+}
+
+.modal-parent, .modal-parent2, .modal-parent3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+  }
+  .modal, .modal2, .modal3{
+    box-shadow: 0px 0px 50px 50px rgb(5, 5, 5);
+    background: rgba(0, 0, 0, 0.925);
+    width: 50%;
+    padding: 50px;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 22px;
+    font-family: arial;
+    position: relative;
+    animation: 0.5s drop;
+  }
+  @keyframes drop {
+    0%{
+      top: -100px;
+    }
+    100%{
+      top: 50%;
+    }
+  }
+  .X, .X2, .X3{
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 40px;
+    cursor: pointer;
+  
+  }
+
+.resourses
+{
+  position: absolute;
+  font-size: 10px;
+  color: rgb(182, 182, 182);
+  font-family: arial;
+  z-index: 1;
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/
